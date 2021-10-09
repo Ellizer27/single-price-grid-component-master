@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  margin: 4rem auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 80%;
+}
+
+.card-1 {
+  background-color: white;
+  padding: 2rem;
+}
+
+.card-1 h2 {
+  color: hsl(179, 62%, 43%);
+}
+
+.card-1 h3 {
+  margin: 1.5rem 0 1.5rem 0;
+  color: hsl(71, 73%, 54%);
+}
+
+.card-1 p {
+  line-height: 2;
+  color: hsl(218, 22%, 67%);
+}
+
+.content-1 {
+  background-color: hsl(179, 62%, 43%);
+  padding: 2rem;
+}
+
+.content-1 h2 {
+  color: white;
+}
+
+.subscription {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0 0.8rem 0;
+}
+
+.price {
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
+}
+
+.month {
+  color: hsl(204, 43%, 93%);
+  margin-left: 0.5rem;
+}
+
+.content-1 p {
+  color: hsl(204, 43%, 93%);
+}
+
+.btn {
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 2rem auto 0 auto;
+  height: 3rem;
+  width: 100%;
+  background-color: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 0.1rem solid hsl(71, 73%, 54%);
+  transition: all 0.5s ease-in-out;
+}
+
+.content-2 {
+  background-color: hsl(179, 62%, 43%, 0.8);
+  padding: 2rem;
+}
+
+.content-2 h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.content-2 ul {
+  list-style: none;
+}
+
+.content-2 li {
+  color: hsl(204, 43%, 93%);
+  line-height: 1.5;
+}
+
+@media (min-width: 700px) {
+  .container {
+    width: 40%;
+  }
+  .card-2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .content-1,
+  .content-2 {
+    flex-grow: 1;
+  }
+}
